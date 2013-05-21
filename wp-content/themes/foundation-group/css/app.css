@@ -1,0 +1,574 @@
+@import url(../fonts/stylesheet.css);
+/* app.scss */
+/* CUSTOM STYLES FOR THE GROUP THEME */
+/************* Global ********************/
+/************* Typography ********************/
+/* line 59, ../sass/app.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #333333;
+  line-height: 1.2;
+  font-weight: 500; }
+
+/* line 65, ../sass/app.scss */
+h1 {
+  font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-weight: normal;
+  font-size: 36px; }
+
+/* line 70, ../sass/app.scss */
+h2 {
+  font-size: 30px;
+  text-transform: capitalize; }
+
+/* line 74, ../sass/app.scss */
+h3 {
+  font-size: 24px; }
+
+/* line 77, ../sass/app.scss */
+h4 {
+  font-size: 18px; }
+
+/* line 80, ../sass/app.scss */
+h5 {
+  font-size: 15px; }
+
+/* line 83, ../sass/app.scss */
+h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px; }
+
+/* line 89, ../sass/app.scss */
+p, li, dt, dd {
+  color: #4d4d4d;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 22px; }
+
+/* line 96, ../sass/app.scss */
+h1, h1 a, h1 h3.nlposts-ulist-title {
+  color: #c91c22; }
+
+/* line 100, ../sass/app.scss */
+.intro-text {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin-bottom: 30px; }
+
+/* line 109, ../sass/app.scss */
+.wp-caption-text {
+  font-size: 13px; }
+
+/* line 136, ../sass/app.scss */
+.pull-quote {
+  position: relative;
+  padding: ems(4em, 4em); }
+  /* line 118, ../sass/app.scss */
+  .pull-quote:before, .pull-quote:after {
+    height: ems(4em, 4em);
+    opacity: 0.15;
+    position: absolute;
+    font-size: 4em; }
+  /* line 124, ../sass/app.scss */
+  .pull-quote:before {
+    content: '“';
+    top: 0em;
+    left: 0em; }
+  /* line 129, ../sass/app.scss */
+  .pull-quote:after {
+    content: '”';
+    bottom: 0em;
+    right: 0em; }
+
+/* line 141, ../sass/app.scss */
+.page-title,
+.single-title {
+  color: #333333; }
+
+/* line 145, ../sass/app.scss */
+.post_content p:first-child {
+  font-size: 18px; }
+
+/* line 149, ../sass/app.scss */
+.meta {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #999999;
+  font-style: normal !important; }
+
+/************* Elements ********************/
+/* line 158, ../sass/app.scss */
+div.panel {
+  border: 0; }
+
+/************* Links + Buttons ********************/
+/* line 165, ../sass/app.scss */
+a, h3.nlposts-ulist-title {
+  color: #c91c22; }
+  /* line 167, ../sass/app.scss */
+  a:hover, h3.nlposts-ulist-title:hover {
+    color: #1a1a1a; }
+  /* line 168, ../sass/app.scss */
+  a:active, h3.nlposts-ulist-title:active {
+    color: #1a1a1a; }
+  /* line 169, ../sass/app.scss */
+  a:visited, h3.nlposts-ulist-title:visited {
+    color: #9c161a; }
+
+/* line 172, ../sass/app.scss */
+.read-more {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding: 0 5px;
+  font-size: 80%; }
+
+/* line 179, ../sass/app.scss */
+.button {
+  background: #1a1a1a;
+  border: 0;
+  font-size: 18px;
+  -webkit-border-radius: 3px 3px;
+  -moz-border-radius: 3px / 3px;
+  border-radius: 3px / 3px;
+  font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal; }
+  /* line 185, ../sass/app.scss */
+  .button:hover {
+    background: #c91c22; }
+  /* line 188, ../sass/app.scss */
+  .button:active {
+    background: #1a1a1a; }
+
+/************* Header ********************/
+/* line 195, ../sass/app.scss */
+.searchform {
+  float: right;
+  margin: 15px 0 0; }
+  /* line 198, ../sass/app.scss */
+  .searchform input[type="text"] {
+    -webkit-border-radius: 15px 15px;
+    -moz-border-radius: 15px / 15px;
+    border-radius: 15px / 15px;
+    height: 30px;
+    color: #999999;
+    padding: 0 12px; }
+
+/* line 206, ../sass/app.scss */
+.global-nav {
+  height: 40px;
+  background: black;
+  margin: 0;
+  padding: 0 15px; }
+  /* line 211, ../sass/app.scss */
+  .global-nav a, .global-nav h3.nlposts-ulist-title {
+    font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: white;
+    font-size: 26px; }
+
+/* line 218, ../sass/app.scss */
+.siteinfo {
+  background: #333333;
+  padding: 3px 15px;
+  margin: 0; }
+  /* line 222, ../sass/app.scss */
+  .siteinfo h1 {
+    margin: 3px 0 -3px; }
+  /* line 225, ../sass/app.scss */
+  .siteinfo a, .siteinfo h3.nlposts-ulist-title {
+    color: white;
+    font-weight: normal;
+    font-size: 55px; }
+
+/************* Navigation ********************/
+/* line 237, ../sass/app.scss */
+.nav-bar {
+  height: 44px;
+  background: #666666;
+  margin: 0 0 30px;
+  padding: 0; }
+
+/* line 243, ../sass/app.scss */
+.nav-bar > li {
+  border: 0;
+  line-height: 44px; }
+
+/* line 248, ../sass/app.scss */
+.nav-bar > li.active {
+  background: #fbb03b !important; }
+  /* line 250, ../sass/app.scss */
+  .nav-bar > li.active a, .nav-bar > li.active h3.nlposts-ulist-title {
+    border: 0; }
+  /* line 253, ../sass/app.scss */
+  .nav-bar > li.active:hover {
+    background: #fbb03b !important; }
+    /* line 255, ../sass/app.scss */
+    .nav-bar > li.active:hover a, .nav-bar > li.active:hover h3.nlposts-ulist-title {
+      color: white !important; }
+
+/* line 261, ../sass/app.scss */
+.nav-bar > li > a:first-child, .nav-bar > li > h3.nlposts-ulist-title:first-child {
+  position: relative;
+  padding: 0 15px;
+  display: block;
+  font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  text-decoration: none;
+  font-size: 26px;
+  color: white; }
+
+/* line 271, ../sass/app.scss */
+.nav-bar > li:last-child {
+  border: 0; }
+
+/************* Posts ********************/
+/* line 278, ../sass/app.scss */
+#main article {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #cccccc; }
+
+/* line 283, ../sass/app.scss */
+.post-thumbnail img {
+  width: 100%;
+  border: 0; }
+
+/************* Slider ********************/
+/* line 293, ../sass/app.scss */
+#featured {
+  border: 10px solid #e6e6e6; }
+  /* line 295, ../sass/app.scss */
+  #featured h3 {
+    margin: 1.5em 0 0.5em;
+    padding: 0 30px;
+    font-size: 30px; }
+  /* line 300, ../sass/app.scss */
+  #featured p {
+    padding: 0 30px;
+    font-size: 16px; }
+  /* line 304, ../sass/app.scss */
+  #featured img {
+    width: 100%;
+    height: auto; }
+
+/* line 311, ../sass/app.scss */
+.featured-slider {
+  background: white; }
+
+/* line 315, ../sass/app.scss */
+#featured.orbit div.featured-slider {
+  padding: 0; }
+
+/* line 319, ../sass/app.scss */
+.orbit-bullets {
+  margin: 10px 0;
+  opacity: .8; }
+
+/* line 324, ../sass/app.scss */
+div.orbit-wrapper div.slider-nav {
+  display: none; }
+
+/* line 328, ../sass/app.scss */
+div.orbit-wrapper div.timer {
+  top: auto;
+  right: 0;
+  bottom: 10px; }
+
+/************* Footer ********************/
+/* line 337, ../sass/app.scss */
+footer nav {
+  background: #333333; }
+  /* line 339, ../sass/app.scss */
+  footer nav a, footer nav h3.nlposts-ulist-title {
+    color: #fff; }
+    /* line 341, ../sass/app.scss */
+    footer nav a:hover, footer nav h3.nlposts-ulist-title:hover {
+      color: #cccccc; }
+
+/* line 347, ../sass/app.scss */
+footer .panel {
+  background: #333333; }
+  /* line 349, ../sass/app.scss */
+  footer .panel h4 {
+    color: white; }
+  /* line 353, ../sass/app.scss */
+  footer .panel .textwidget,
+  footer .panel .textwidget p {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.6; }
+
+/************* Images ********************/
+/* line 363, ../sass/app.scss */
+.post-thumbnail img {
+  background: #cccccc;
+  border: 1px solid #b3b3b3;
+  padding: 10px;
+  float: left;
+  margin-right: 10px;
+  width: 45%;
+  height: auto; }
+  /* line 371, ../sass/app.scss */
+  .post-thumbnail img .right {
+    float: right;
+    margin-left: 10px; }
+
+/************* Widgets ********************/
+/* line 379, ../sass/app.scss */
+.widgettitle {
+  font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  font-size: 24px; }
+
+/* line 385, ../sass/app.scss */
+.sidebar ul,
+.sidebar ul.nlposts-wrapper {
+  list-style: none; }
+  /* line 388, ../sass/app.scss */
+  .sidebar ul li,
+  .sidebar ul h3.nlposts-ulist-title,
+  .sidebar ul.nlposts-wrapper li,
+  .sidebar ul.nlposts-wrapper h3.nlposts-ulist-title {
+    border-bottom: #cccccc solid 1px;
+    padding: 5px 0 10px;
+    line-height: 1.3em;
+    font-size: 13px; }
+    /* line 393, ../sass/app.scss */
+    .sidebar ul li:last-child,
+    .sidebar ul h3.nlposts-ulist-title:last-child,
+    .sidebar ul.nlposts-wrapper li:last-child,
+    .sidebar ul.nlposts-wrapper h3.nlposts-ulist-title:last-child {
+      border-bottom: none; }
+
+/* line 399, ../sass/app.scss */
+.sidebar p, .sidebar li {
+  font-size: 13px;
+  line-height: 1.4; }
+
+/* line 409, ../sass/app.scss */
+h4.widgettitle label {
+  font-size: 23px;
+  line-height: 1.1;
+  margin-bottom: 14px;
+  margin-top: 14px;
+  text-rendering: optimizelegibility;
+  font-family: 'Oswald',sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #1a1a1a; }
+
+/* line 424, ../sass/app.scss */
+.widget_em_widget li {
+  padding: 10px 0 10px;
+  font-size: 13px; }
+/* line 428, ../sass/app.scss */
+.widget_em_widget a, .widget_em_widget h3.nlposts-ulist-title {
+  font-size: 18px;
+  font-weight: normal !important;
+  display: block;
+  padding: 5px 0; }
+/* line 434, ../sass/app.scss */
+.widget_em_widget ul ul li {
+  display: inline;
+  border: 0;
+  margin-right: 15px;
+  font-size: 12px; }
+
+/* line 444, ../sass/app.scss */
+table.em-calendar {
+  border: 0;
+  width: 100%;
+  -webkit-border-radius: 0 0;
+  -moz-border-radius: 0 / 0;
+  border-radius: 0 / 0;
+  font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal; }
+  /* line 449, ../sass/app.scss */
+  table.em-calendar thead {
+    background: white;
+    font-size: 18px; }
+  /* line 453, ../sass/app.scss */
+  table.em-calendar tbody tr:nth-child(even) {
+    background: white; }
+  /* line 456, ../sass/app.scss */
+  table.em-calendar td {
+    padding: 3px;
+    font-size: 18px;
+    font-weight: normal; }
+  /* line 462, ../sass/app.scss */
+  table.em-calendar td.eventless-today,
+  table.em-calendar td.eventful-today {
+    background-color: white; }
+  /* line 466, ../sass/app.scss */
+  table.em-calendar td.eventful a, table.em-calendar td.eventful h3.nlposts-ulist-title,
+  table.em-calendar td.eventful-today a,
+  table.em-calendar td.eventful-today h3.nlposts-ulist-title {
+    color: #c91c22 !important; }
+    /* line 468, ../sass/app.scss */
+    table.em-calendar td.eventful a:hover, table.em-calendar td.eventful h3.nlposts-ulist-title:hover,
+    table.em-calendar td.eventful-today a:hover,
+    table.em-calendar td.eventful-today h3.nlposts-ulist-title:hover {
+      color: #9c161a !important; }
+
+/* line 476, ../sass/app.scss */
+.social-media-mashup .entry-meta {
+  font-weight: normal;
+  color: #999999; }
+  /* line 479, ../sass/app.scss */
+  .social-media-mashup .entry-meta a, .social-media-mashup .entry-meta h3.nlposts-ulist-title {
+    color: #999999; }
+
+/************* Directory Page ********************/
+/* line 487, ../sass/app.scss */
+section.post_content div h1 {
+  display: none; }
+
+/* line 492, ../sass/app.scss */
+.page section.post_content div,
+table.blogs_directory_nav_table {
+  float: none !important; }
+
+/* line 496, ../sass/app.scss */
+ul.organization-listing {
+  list-style: none; }
+
+/************* Events Calendar ********************/
+/* line 502, ../sass/app.scss */
+.em-events-search-form {
+  background: #333333;
+  padding: 5px 10px; }
+  /* line 505, ../sass/app.scss */
+  .em-events-search-form input[type="text"] {
+    height: 24px;
+    width: 18%;
+    -webkit-border-radius: 12px 12px;
+    -moz-border-radius: 12px / 12px;
+    border-radius: 12px / 12px;
+    padding-left: 12px;
+    display: inline;
+    font-size: 13px;
+    margin: 0 5px 10px; }
+  /* line 514, ../sass/app.scss */
+  .em-events-search-form input.em-events-search-text {
+    width: 40%;
+    margin: 0 30px 10px 0; }
+  /* line 518, ../sass/app.scss */
+  .em-events-search-form span {
+    color: white;
+    font-size: 12px; }
+  /* line 522, ../sass/app.scss */
+  .em-events-search-form select {
+    width: auto;
+    height: 24px;
+    border: 0; }
+  /* line 528, ../sass/app.scss */
+  .em-events-search-form input[type="submit"] {
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: white;
+    font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: normal;
+    -webkit-border-radius: 5px 5px;
+    -moz-border-radius: 5px / 5px;
+    border-radius: 5px / 5px;
+    border: 0;
+    background: #c91c22;
+    padding: 0 10px; }
+
+/* line 542, ../sass/app.scss */
+.events-table {
+  border: 0;
+  border-top: 1px solid #999999; }
+  /* line 545, ../sass/app.scss */
+  .events-table thead {
+    display: none; }
+  /* line 548, ../sass/app.scss */
+  .events-table tr {
+    border-bottom: 1px solid #999999; }
+  /* line 551, ../sass/app.scss */
+  .events-table a, .events-table h3.nlposts-ulist-title {
+    font-size: 18px; }
+
+/* line 558, ../sass/app.scss */
+.event-body {
+  padding-top: 30px; }
+
+/* line 562, ../sass/app.scss */
+.event .sidebar {
+  padding-left: 0; }
+
+/* line 568, ../sass/app.scss */
+.event-date-time h3,
+.event-location h3 {
+  font-size: 18px;
+  font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin: 2em 0 0.5em; }
+/* line 573, ../sass/app.scss */
+.event-date-time p,
+.event-location p {
+  font-size: 14px;
+  margin-bottom: 1em;
+  line-height: 1.4; }
+
+/************* Comments ********************/
+/* line 585, ../sass/app.scss */
+#comment-form-title {
+  font-family: "LeagueGothicRegular", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: normal;
+  margin: 0; }
+
+/************* Responsive Styling ********************/
+@media only screen and (min-width: 768px) {
+  /* line 594, ../sass/app.scss */
+  ol.commentlist div.avatar {
+    margin-right: 0; }
+
+  /* line 598, ../sass/app.scss */
+  #main {
+    border-bottom: none; }
+
+  /* line 602, ../sass/app.scss */
+  #featured h3 {
+    margin-top: 1em;
+    padding: 0 30px; }
+
+  /* line 607, ../sass/app.scss */
+  #featured p {
+    padding: 0 30px; }
+
+  /* line 612, ../sass/app.scss */
+  #featured h3,
+  #featured p {
+    width: 100%; } }
+@media only screen and (min-width: 940px) {
+  /* desktop specific styles */
+  /* line 620, ../sass/app.scss */
+  #main {
+    margin-bottom: 0; }
+
+  /* line 624, ../sass/app.scss */
+  ol.commentlist div.avatar {
+    margin-right: 0; } }

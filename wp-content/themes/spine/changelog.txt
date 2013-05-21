@@ -1,0 +1,64 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+(03/03/2013)
+[!] Fixed missing header banner area
+
+(03/02/2013)
+[+] Added logo upload to customizer
+[+] ADded footer widget area
+[+] Moved color pickers to colors section
+
+(02/20/2013)
+[!] Escaped home_url in header.php with esc_url
+[!] Limited depth of navbar menu to 2
+[!] Removed header instruction in 404 template
+
+(02/16/2013)
+[!] Fixes bug in layout logic and displaying sidebars
+
+(02/13/2013)
+[/] Fixed bug in gallery shortcode
+[!] Fixed invalid ARIA role for main content
+[!] Replaced child theme function with correct parent theme function
+
+(02/09/2013)
+[!] Fixed bug in gallery shortcode
+[!] Added missing attachment template functions
+[!] Made CSS less specific for button styles
+
+(02/07/2013)
+[!] Fixed bug in Hybrid layouts (layouts were swapped)
+
+(02/04/2013)
+[+] Editor styles
+
+(02/03/2013)
+[-] Removed color scheme select
+[+] Added color pickers to customizer for text
+[+] Added front page template
+[!] Fixed bug in sidebar display logic for front page template
+[+] Added language files for translation
+
+(01/24/2013)
+[+] Added color schemes to customizer (no live preview)
+
+(01/22/2013)
+[!] Fixed bug in layout logic
+[!] Removed foundation Sass from theme
+[+] Added color schemes to theme options (red, greed)
+[!] Fixed bug in color schemes logic
+
+(01/10/2013)
+[!] Fixed bug with layout logic
+[!] Fixed bug with search form
+
+(01/10/2013)
+Initial Release

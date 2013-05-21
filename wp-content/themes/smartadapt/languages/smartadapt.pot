@@ -1,0 +1,339 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SmartAdapt 1.0\n"
+"POT-Creation-Date: 2013-04-08 23:15+0100\n"
+"PO-Revision-Date: 2013-04-08 23:18+0100\n"
+"Last-Translator: \n"
+"Language-Team: Peter Bielecki <netbiel@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ./inc\n"
+"X-Poedit-SearchPath-2: ./inc/classes\n"
+
+#: archive.php:13
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:14
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: author.php:19
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: author.php:39 content-single.php:70 content.php:82
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: category.php:13
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: content-aside.php:10 content-image.php:17 content-link.php:16
+#: content-quote.php:15 content-single.php:21 content-status.php:13
+#: content.php:23
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-aside.php:14 content-image.php:11 content-link.php:10
+#: content-quote.php:9 content-status.php:21
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-aside.php:24 content-image.php:28 content-link.php:20
+#: content-quote.php:19 content-status.php:28 inc/template-tags.php:102
+msgid "Leave a reply"
+msgstr ""
+
+#: content-aside.php:24 content-image.php:28 content-link.php:20
+#: content-quote.php:19 content-status.php:28 inc/template-tags.php:102
+msgid "1 Reply"
+msgstr ""
+
+#: content-aside.php:24 content-image.php:28 content-link.php:20
+#: content-quote.php:19 content-status.php:28 inc/template-tags.php:102
+msgid "% Replies"
+msgstr ""
+
+#: content-aside.php:27 content-image.php:31 content-link.php:23
+#: content-page.php:18 content-quote.php:22 content-single.php:62
+#: content-status.php:31 content.php:74 image.php:31 inc/template-tags.php:205
+msgid "Edit"
+msgstr ""
+
+#: content-page.php:14 image.php:91 inc/template-tags.php:245
+msgid "Pages:"
+msgstr ""
+
+#: content-single.php:51 content.php:64
+msgid "Tags: "
+msgstr ""
+
+#: content-single.php:76 content.php:88
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content.php:52
+msgid "Continue reading"
+msgstr ""
+
+#: functions.php:63
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:64
+msgid "Bottom Menu"
+msgstr ""
+
+#: functions.php:65
+msgid "Categories Menu"
+msgstr ""
+
+#: functions.php:172
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:200
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:202
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer Front Page Widget Area"
+msgstr ""
+
+#: functions.php:212
+msgid "Appears on Frontpage"
+msgstr ""
+
+#: functions.php:220
+msgid "Footer Single Page Widget Area"
+msgstr ""
+
+#: functions.php:222
+msgid "Appears on Single page"
+msgstr ""
+
+#: functions.php:243
+msgid "Customize"
+msgstr ""
+
+#: functions.php:371
+msgid "To view this protected post, enter the password below:"
+msgstr ""
+
+#: functions.php:371
+msgid "Password:"
+msgstr ""
+
+#: image.php:20
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr ""
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr ""
+
+#: index.php:35
+#, php-format
+msgid "ready to publish your first post? <a href=\"%s\">get started here</a>."
+msgstr ""
+
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: tag.php:12
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:40 inc/template-tags.php:43 inc/template-tags.php:46
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:94
+msgid " "
+msgstr ""
+
+#: inc/template-tags.php:146
+msgid ""
+"<span class=\"button\"><span class=\"meta-nav\">&larr;</span> Older posts</"
+"span>"
+msgstr ""
+
+#: inc/template-tags.php:148
+msgid ""
+"<span class=\"button\">Newer posts <span class=\"meta-nav\">&rarr;</span></"
+"span>"
+msgstr ""
+
+#: inc/template-tags.php:172
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:187
+msgid "Post author"
+msgstr ""
+
+#: inc/template-tags.php:193
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:210
+msgid "Reply"
+msgstr ""
+
+#: inc/template-tags.php:250
+msgid "Next page"
+msgstr ""
+
+#: inc/template-tags.php:251
+msgid "Previous page"
+msgstr ""
+
+#: inc/classes/custom-widgets.php:27
+msgid "A search form for your site"
+msgstr ""
+
+#: inc/classes/custom-widgets.php:28
+msgid "Search"
+msgstr ""
+
+#: inc/classes/custom-widgets.php:81
+msgid "The most recent posts on your site (extended contorls)"
+msgstr ""
+
+#: inc/classes/custom-widgets.php:82
+msgid "Extended Recent Posts"
+msgstr ""
+
+#: inc/classes/custom-widgets.php:109
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/classes/custom-widgets.php:241
+msgid "Short  info & avatar"
+msgstr ""
+
+#: inc/classes/custom-widgets.php:242
+msgid "One Author Info"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:121
+msgid "Logo"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:126
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:132
+#: inc/classes/theme-options-class.php:159
+msgid "Pagination"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:137
+msgid "Social buttons"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:144
+msgid "Custom Code"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:164
+msgid "Older posts/Newer posts"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:165
+msgid "Paginate links"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:179
+msgid "Separator"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:195
+msgid "Headers Text Color"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:209
+msgid "Sidebar Color"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:223
+msgid "Link Color"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:237
+msgid "Upload"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:252
+msgid "Facebook Like"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:264
+msgid "Twitter Button "
+msgstr ""
+
+#: inc/classes/theme-options-class.php:277
+msgid "Google +1"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:290
+msgid "Pinterest"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:310
+msgid "Custom header code, e.g. Google Analytics"
+msgstr ""
+
+#: inc/classes/theme-options-class.php:318
+msgid "Custom footer code"
+msgstr ""
