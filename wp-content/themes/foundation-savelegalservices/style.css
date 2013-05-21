@@ -1,0 +1,13 @@
+/*
+Theme Name: Foundation - Save Legal Services
+Version: 1.0
+Description: Custom child theme of Wordpress Foundation for the Save Legal Services Website
+Theme URI: http://savelegalservices.com
+Author: Pea
+Author URI: http://patricialutz.com
+Template: wp-foundation
+*/
+
+@import url("../wp-foundation/style.css");
+@import url("css/app.css");
+
